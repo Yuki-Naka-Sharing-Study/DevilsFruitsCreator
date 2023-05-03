@@ -13,6 +13,8 @@
 		D1C354CE2A025DDD00AFAAC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C354CC2A025DDD00AFAAC2 /* Main.storyboard */; };
 		D1C354D02A025DDF00AFAAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C354CF2A025DDF00AFAAC2 /* Assets.xcassets */; };
 		D1C354D32A025DDF00AFAAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C354D12A025DDF00AFAAC2 /* LaunchScreen.storyboard */; };
+		D1C354DF2A02637500AFAAC2 /* RegisterFruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C354DE2A02637500AFAAC2 /* RegisterFruitsViewController.swift */; };
+		D1C354E12A02647D00AFAAC2 /* ShareFruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C354E02A02647D00AFAAC2 /* ShareFruitsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D1C354CF2A025DDF00AFAAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C354D22A025DDF00AFAAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C354D42A025DDF00AFAAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C354DE2A02637500AFAAC2 /* RegisterFruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFruitsViewController.swift; sourceTree = "<group>"; };
+		D1C354E02A02647D00AFAAC2 /* ShareFruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFruitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		D1C354C52A025DDD00AFAAC2 /* DevilsFruitsCreater */ = {
 			isa = PBXGroup;
 			children = (
-				D1C354C62A025DDD00AFAAC2 /* AppDelegate.swift */,
-				D1C354C82A025DDD00AFAAC2 /* SceneDelegate.swift */,
-				D1C354CA2A025DDD00AFAAC2 /* ViewController.swift */,
-				D1C354CC2A025DDD00AFAAC2 /* Main.storyboard */,
+				D1C354DC2A025E0D00AFAAC2 /* Storyboard */,
+				D1C354DB2A025DFD00AFAAC2 /* ViewController */,
+				D1C354DD2A025E2500AFAAC2 /* Model */,
+				D1C354DA2A025DF000AFAAC2 /* Delegate */,
 				D1C354CF2A025DDF00AFAAC2 /* Assets.xcassets */,
-				D1C354D12A025DDF00AFAAC2 /* LaunchScreen.storyboard */,
 				D1C354D42A025DDF00AFAAC2 /* Info.plist */,
 			);
 			path = DevilsFruitsCreater;
+			sourceTree = "<group>";
+		};
+		D1C354DA2A025DF000AFAAC2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D1C354C62A025DDD00AFAAC2 /* AppDelegate.swift */,
+				D1C354C82A025DDD00AFAAC2 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D1C354DB2A025DFD00AFAAC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1C354CA2A025DDD00AFAAC2 /* ViewController.swift */,
+				D1C354DE2A02637500AFAAC2 /* RegisterFruitsViewController.swift */,
+				D1C354E02A02647D00AFAAC2 /* ShareFruitsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D1C354DC2A025E0D00AFAAC2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D1C354CC2A025DDD00AFAAC2 /* Main.storyboard */,
+				D1C354D12A025DDF00AFAAC2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D1C354DD2A025E2500AFAAC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1C354CB2A025DDD00AFAAC2 /* ViewController.swift in Sources */,
+				D1C354DF2A02637500AFAAC2 /* RegisterFruitsViewController.swift in Sources */,
+				D1C354E12A02647D00AFAAC2 /* ShareFruitsViewController.swift in Sources */,
 				D1C354C72A025DDD00AFAAC2 /* AppDelegate.swift in Sources */,
 				D1C354C92A025DDD00AFAAC2 /* SceneDelegate.swift in Sources */,
 			);
